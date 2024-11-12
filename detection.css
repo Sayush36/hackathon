@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: "poppins",sans-serif;
+  }
+  #main{
+    background-image: url(temp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: grey; */
+    position: relative;
+    height:60em;
+  }
+  #middle {
+    content: center;
+    text-align: left;
+    height: 45em;
+    width: 50em;
+     background-color:whitesmoke; 
+    margin-left: 40em;
+    margin-top: 5em;
+    position: relative;
+    padding-top: 1em;
+  }
+  #inner3{
+        content: center;
+        text-align: left;
+        height: 35em;
+        width: 50em;
+         background-color:white; 
+        margin-left: 40em;
+        position: absolute;
+        padding-top: 1em;
+        top: 10em;
+  }
+  #inner2{
+    margin-left: 3em;
+  } 
+  #about1{
+    margin-left: 3em;
+    top: 3em;
+    position: relative;
+    /* background-color: black; */
+  }
+  #header{
+    height: 5em;
+    width: 100%;
+
+    
+    padding: 0%;
+    margin-top: 0%;
+  }
+  
+  #button{
+    height: 3emem;
+    width: 5em;
+     position: relative;
+    margin-left: 20em;
+    top: 10em;
+  } 
+  #next{
+    position: relative;
+    background-color: skyblue;
+    height: 3em;
+    width: 20em;
+  }
+  #inner3s{
+    margin-left: 1em;
+  }
+  #inner4{
+    margin-left: 2em;
+  }
+  #button1{
+    height: 5em;
+    width: 50em;
+    background-color: rgb(181, 170, 192);
+    top:0em;
+    content: center;
+    height: 5em;
+    width: 50em; 
+    position: relative;
+    padding-top: 1em;
+    text-align: left;
+  } 
+  #back1{
+    top: 2em;
+    position: absolute;
+    height: 3em;
+    width: 5em;
+    background-color: blue;
+    text-align: center;
+    margin-left: 1em;
+  }
+  
+  
+  #next1{
+    top: 2em;
+    position: absolute;
+     margin-left: 50em; 
+    height: 3em;
+    width: 5em;
+    text-align: center;
+    background-color: blue;
+  }
+  .hidden{
+    display: none;
+  }
+  
+  
+  
+  #div3{
+    position: absolute;
+    top: 0;
+    content: center;
+        text-align: left;
+        height: 47em;
+        width: 50em;
+        background-color:#C0C0C0; 
+        margin-left: 40em;
+        position: absolute;
+        padding-top: 1em;
+        top: 10em;
+  
+  }
+  #div4{
+    position: absolute;
+    top: 0;
+    content: center;
+        text-align: left;
+        height: 47em;
+        width: 50em;
+        background-color:#C0C0C0; 
+        margin-left: 40em;
+        position: absolute;
+        padding-top: 1em;
+        top: 10em;
+  
+  }
+  #div5{
+    position: absolute;
+    top: 0;
+    content: center;
+        text-align: left;
+        height: 47em;
+        width: 50em;
+        background-color:#C0C0C0; 
+        margin-left: 40em;
+        position: absolute;
+        padding-top: 1em;
+        top: 10em;
+  
+  }
+  #div6{
+    position: absolute;
+    top: 0;
+    content: center;
+        text-align: left;
+        height: 47em;
+        width: 50em;
+        background-color:#C0C0C0; 
+        margin-left: 40em;
+        position: absolute;
+        padding-top: 1em;
+        top: 10em;
+  
+  }
+  
+  
+  #innercont{
+    margin-left: 1em;
+    margin-top: 2em;
+  
+  }
+  #male{
+    height: 15em;
+    width:25em;
+    background-color: rgb(65, 13, 13);
+    margin-top: 1em;
+    margin-left: 3em ;
+    background-image: url(istockphoto-1456527590-612x612.jpg);
+    background-size: contain; 
+  }
+  #female{
+    height: 15em;
+    width: 25em;
+  margin-left: 33em;
+  margin-right: 3em;
+  margin-top: 1em;
+    position: absolute;
+    background-color: rgb(55, 190, 21);
+    /* display: inline; */
+    background-image: url(images.jpeg);
+    background-size: contain;
+  
+  }
+  
+  
+  #buttong{
+    height: 15em;
+     display: flex;
+     background-color:light;
+  }
+  #back2{
+    top: 40em;
+    position: absolute;
+    margin-left: 30em;
+    height: 3em;
+    width: 5em;
+  }
+  
+  
+  
+  
+  
+  .ha{
+    margin-left: 5em;
+    margin-top: 1em;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-stretch: expanded;
+  }
+  
+  .pa{
+    margin-left: 5em;
+    margin-top: 1em;
+  
+  }
+  
+  
+  #qlist{
+    height: 35em;
+    width: 40em;
+    background-color: #FAF9F6;
+    margin-left: 4em;
+  }
+  
+  #l-1{
+    display: flex;
+    position: relative;
+    margin-top: 1em;
+    /* top: 1em; */
+    height: 3em;
+    background-color: #F9F6EE;
+    width: 40em;
+    margin-right: 2em;
+  }
+  
+  #l-a-1{
+    margin-top: 1em;
+    position: absolute;
+     /* display: flex;  */
+  background-color:  #F9F6EE; 
+  width: 20em;
+  height: 2em;
+  }
+ 
+  #m{
+    width: 14em;
+    height: 1em;
+       margin-left: 26em;
+       top: 1em;
+       /* margin-top: 1em; */
+         position: relative; 
+        background-color: grey ;
+  }
+  
+  #l-a-2{
+  background-color: yellow;
+  }
+  
+  /* 
+  #l-1:hover{
+    background-color: black;
+  }
+  #l-a-1:hover{
+    background-color: black;
+  } */
+  #btnnew{
+    top: 55em;
+    margin-left: 79em;
+    position: absolute;
+  }
+  .new{
+    height: 3em;
+    width: 6em;
+    background-color: lightblue;
+  } 
+  #btnnew1{
+    top: 55em;
+    margin-left: 44em;
+    position: absolute;
+  }
+  .new1{
+    height: 3em;
+    width: 6em;
+    background-color: lightblue;
+  }
+  #footer1{
+    background-color:#0093E9;
+  }
+#a2{
+    text-align: center;
+}
+#symp{
+    text-align: center;
+}

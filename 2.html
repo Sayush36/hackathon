@@ -1,0 +1,61 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body style="background-color: black;">
+<div id="div1">
+    <img src="fever.jpg" alt="" srcset="" >
+    <div class="temp">
+    <h2>Is Your Temperature Is Heigher <br>Than 99 Fahrenhiet</h2>
+    <button class="yes">YES</button>
+    <button class="no">NO</button>
+    <button id="next">next</button>
+    </div>
+</div>
+
+
+<div id="div2" class="hiden"> 
+    <img src="feeling cold.jpg" alt="" srcset="" >
+    <div class="temp">
+    <h2>Are You Feeling Cold</h2>
+    <button class="yes">YES</button>
+    <button class="no">NO</button>
+    <button id="next2">next</button>
+
+    </div>
+</div>
+
+
+<div id="div3" class="hiden">  
+    <img src="running nose.jpg" alt="" srcset="" >
+    <div class="temp">
+    <h2>Runny Nose</h2>
+    <button class="yes">YES</button>
+    <button class="no">NO</button>
+</div>
+</div>
+<script>
+    const div1=document.getElementById("div1");
+    const next=document.getElementById("next");
+           function raja(){
+            div1.classList.add("hiden");
+            div2.classList.remove("hiden")
+           }
+    next.onclick=raja;
+
+
+    const div2=document.getElementById("div2");
+    const next2=document.getElementById("next2");
+           function raja1(){
+            div2.classList.add("hiden");
+            div3.classList.remove("hiden")
+           }
+    next2.onclick=raja1;
+
+</script>
+</body>
+</html>
